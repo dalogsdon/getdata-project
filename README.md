@@ -12,8 +12,14 @@ The [plyr](http://cran.r-project.org/web/packages/plyr/index.html) package is re
 
 Script Steps
 ------------
+
 1. Reads test and train data and combines them into a single data frame
 2. Subsets the dataframe into mean and standard deviation features
 3. For each observation, maps activity index to its descriptive activity name
 4. Names each feature column to its correct feature name
 5. For each combination of subject and activity, creates a data frame containing the average of each feature
+
+Script Output
+-------------
+
+The script creates several variables, with the `tidy` variable being the final output.
