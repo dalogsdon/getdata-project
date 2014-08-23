@@ -5,6 +5,11 @@ Course project for Coursera "Getting and Cleaning Data" course (August 2014)
 
 This project consists of an R script "run_analysis.R" that tidies the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) as long as it is in the working directory. Its output is described in the [codebook](./codebook.md).
 
+Prerequisites
+-------------
+
+The [plyr](http://cran.r-project.org/web/packages/plyr/index.html) package is required to run the script.
+
 Script Steps
 ------------
 1. Reads test and train data and combines them into a single data frame
