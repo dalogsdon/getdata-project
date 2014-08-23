@@ -1,7 +1,11 @@
 Tidy UCI HAR Dataset codebook
 =============================
 
-The tidy dataset created by the [run_analysis script](./run_analysis.R) produces a data frame with average values of the following columns:
+Full variable descriptions can be found in the `features_info.txt` file in the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+
+The tidy dataset created by the [run_analysis script](./run_analysis.R) is formed from a subset of the original features. The feature subset consists of all "mean" and "std" features in the original data set. This subset was grouped by each combination of subject and activity, and the mean value of each feature in each group was added to the tidy dataset. The resulting set consists of 180 rows (one for each group) and 68 columns (subject, activity, and 66 features).
+
+The columns in the tidy dataset are as follows:
 
 1. subject - Participant ID
 1. activity - Action performed
